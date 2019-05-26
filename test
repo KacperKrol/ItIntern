@@ -1,0 +1,44 @@
+#zadanie 1
+
+import statistics
+Dolnoslaskie =[9951, 13448, 9386, 12146, 9187, 11752, 8764, 11370, 8459, 10474, 8184, 9579, 7481, 9208, 7554, 9077, 7054, 8444]
+print('dla województwa Dolnośląskiego średnia wynosi', statistics.mean(Dolnoslaskie))
+
+"""KujawskoPomorskie =[8001, 10636, 7554, 10334, 7218, 9541, 7208, 9346, 6700, 8779, 6593, 8295, 6002, 7560, 6165, 7359, 5615, 6883]
+print('dla województwa Kujawsko-pomorskiego średnia wynosi', statistics.mean(KujawskoPomorskie))
+
+Lubelskie =[10442, 13185,10006,12715,9670,11861,9117,11425,8448,10361,7807,9656,7336,9096,7512,9234,2543,3160]
+print('dla województwa Lubelskiego średnia wynosi', statistics.mean(Lubelskie))
+
+Lubuskie =[3745,5079,3351,4439,3203,4353,3121,4222,3028,3959,2811,3532,2520,3244,2687,3272,7219,8531]
+print('dla województwa Lubuskiego średnia wynosi', statistics.mean(Lubuskie))
+
+Łódzkie =[10280,13152,9715,12110,9181,11925,8985,11134,8318,10353,7896,9600,7462,8940,7233,8956,7178,8480]
+print('dla województwa Łódzkiego średnia wynosi', statistics.mean(Łódzkie))
+
+Małopolskie =[15190,19794,14637,18681,13877,17914,13273,16982,12562,15697,11843,14577,11143,13893,11016,13789,11042,13826]
+print('dla województwa Malopolskiego średnia wynosi', statistics.mean(Małopolskie))
+"""
+
+#zadanie 2
+
+pierwszyrok = 17117
+drugirok = 14441
+trzecirok = 14806
+czwartyrok = 14185
+piątyrok = 11676
+szóstyrok = 11687
+siódmyrok = 11485
+ósmyrok = 11616
+ostatnirok = 11304
+razem = 118317
+print('w 2010 roku zdawalność na Pomorzu wyniosło', round(pierwszyrok/razem *100,1), '%')
+print('w 2011 roku zdawalność na Pomorzu wyniosło', round(drugirok/razem *100,1), '%')
+print('w 2012 roku zdawalność na Pomorzu wyniosło', round(trzecirok/razem *100,1), '%')
+print('w 2013 roku zdawalność na Pomorzu wyniosło', round(czwartyrok/razem *100,1), '%')
+print('w 2014 roku zdawalność na Pomorzu wyniosło', round(piątyrok/razem *100,1), '%')
+print('w 2015 roku zdawalność na Pomorzu wyniosło', round(szóstyrok/razem *100,1), '%')
+print('w 2016 roku zdawalność na Pomorzu wyniosło', round(siódmyrok/razem *100,1), '%')
+print('w 2017 roku zdawalność na Pomorzu wyniosło', round(ósmyrok/razem *100,1), '%')
+print('w 2018 roku zdawalność na Pomorzu wyniosło', round(ostatnirok/razem *100,1), '%')
+
